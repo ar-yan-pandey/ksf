@@ -4,14 +4,13 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      // Ensure proper module resolution
-      'react-router-dom': 'react-router-dom',
-    }
-  },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom', 'react-ga4'],
+    include: [
+      'react', 
+      'react-dom', 
+      'react-router-dom', 
+      'react-ga4'
+    ],
     exclude: ['lucide-react']
   },
   build: {
