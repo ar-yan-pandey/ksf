@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 {
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
-=======
-{
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
->>>>>>> 2d3d07f6512dc9b5d8d614a6d0f247742558e60f
-  }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
